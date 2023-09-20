@@ -45,6 +45,36 @@ $(function () {
          lengthMenu: '_MENU_ items/page',
       }
    });
+   $('#example111111').DataTable({
+      language: {
+         searchPlaceholder: 'Search...',
+         sSearch: '',
+         lengthMenu: '_MENU_ items/page',
+      }
+   });
+
+   $('#example55').DataTable({
+      language: {
+         searchPlaceholder: 'Search...',
+         sSearch: '',
+         lengthMenu: '_MENU_ items/page',
+      }
+   });
+   $('#example555').DataTable({
+      language: {
+         searchPlaceholder: 'Search...',
+         sSearch: '',
+         lengthMenu: '_MENU_ items/page',
+      }
+   });
+
+   $('#example5555').DataTable({
+      language: {
+         searchPlaceholder: 'Search...',
+         sSearch: '',
+         lengthMenu: '_MENU_ items/page',
+      }
+   });
    $('#example2').DataTable({
       responsive: true,
       language: {
