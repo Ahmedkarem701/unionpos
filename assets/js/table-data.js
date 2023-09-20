@@ -53,6 +53,8 @@ $(function () {
       }
    });
 
+
+
    $('#example55').DataTable({
       language: {
          searchPlaceholder: 'Search...',
