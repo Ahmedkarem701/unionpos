@@ -17,6 +17,34 @@ $(function () {
          lengthMenu: '_MENU_ items/page',
       }
    });
+   $('#example11').DataTable({
+      language: {
+         searchPlaceholder: 'Search...',
+         sSearch: '',
+         lengthMenu: '_MENU_ items/page',
+      }
+   });
+   $('#example111').DataTable({
+      language: {
+         searchPlaceholder: 'Search...',
+         sSearch: '',
+         lengthMenu: '_MENU_ items/page',
+      }
+   });
+   $('#example1111').DataTable({
+      language: {
+         searchPlaceholder: 'Search...',
+         sSearch: '',
+         lengthMenu: '_MENU_ items/page',
+      }
+   });
+   $('#example11111').DataTable({
+      language: {
+         searchPlaceholder: 'Search...',
+         sSearch: '',
+         lengthMenu: '_MENU_ items/page',
+      }
+   });
    $('#example2').DataTable({
       responsive: true,
       language: {

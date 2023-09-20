@@ -279,7 +279,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="order_managementt_home.html">
+                            <a class="nav-link" href="#">
                                 <span class="shape1"></span>
                                 <span class="shape2"></span>
                                 <i class="ti-shopping-cart-full sidemenu-icon menu-icon "></i>
@@ -386,112 +386,97 @@
     <div class="main-content side-content pt-0">
         <div class="main-container container-fluid">
             <div class="inner-body">
+
+
                 <!-- Page Header -->
                 <div class="page-header">
                     <div>
-                        <h2 class="main-content-title tx-24 mg-b-5">Data Definitions</h2>
+                        <h2 class="main-content-title tx-24 mg-b-5">Invoice</h2>
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="javascript:void(0);">Dashboard</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Data Definitions</li>
+                            <li class="breadcrumb-item"><a href="javascript:void(0);">Order Management</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Order ID</li>
+                            <li class="breadcrumb-item active" aria-current="page">Invoice</li>
                         </ol>
+                    </div>
+                    <div class="d-flex">
+                        <div class="justify-content-center">
+                            <button type="button" class="btn btn-white btn-icon-text my-2 me-2">
+                                <i class="fe fe-download me-2"></i> Print
+                            </button>
+                        </div>
                     </div>
                 </div>
                 <!-- End Page Header -->
 
                 <!-- Row -->
-                <div class="row sidemenu-height">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="card overflow-hidden custom-card ">
-                            <div class="d-flex justify-content-center">
-                                <img style="max-width: 100px !important;" alt="Image" class="img-fluid b-img" src="assets/img/mine/master-data-definitions.png">
-                            </div>
-                            <div style="text-align: center" class="card-body">
-                                <p class="card-text">Master Data</p>
-                                <button style="width: 100%" class="btn ripple btn-outline-primary">Enter</button>
-                            </div>
-                        </div>
-                    </div>
+                <div class="row row-sm">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="card custom-card">
+                            <div class="card-body">
+                                <div class="d-lg-flex">
+                                    <h2 class="main-content-label mb-1">#INV0678</h2>
+                                    <div class="ms-auto">
+                                        <p class="mb-1"><span class="font-weight-bold">Invoice Date :</span> 01st November 2020</p>
+                                        <p class="mb-0"><span class="font-weight-bold">Delivery Date :</span> 01 May  2020</p>
 
-                    <div class="col-md-6 col-lg-3">
-                        <div class="card overflow-hidden custom-card ">
-                            <div class="d-flex justify-content-center">
-                                <img style="max-width: 100px !important;" alt="Image" class="img-fluid b-img" src="assets/img/mine/staff.png">
+                                        <p class="mb-1"><span class="font-weight-bold">Division :</span> 01st November 2020</p>
+                                        <p class="mb-0"><span class="font-weight-bold">Order Date :</span> 01 May  2020</p>
+                                        <p class="mb-0"><span class="font-weight-bold">LPO :</span> 01 May  2020</p>
+                                    </div>
+                                </div>
+                                <div class="table-responsive mg-t-40">
+                                    <table class="table table-invoice table-bordered">
+                                        <thead>
+                                        <tr>
+                                            <th class="wd-20p">ITEM NAME</th>
+                                            <th class="wd-40p">ITEM CODE</th>
+                                            <th class="tx-center">UOM</th>
+                                            <th class="tx-right">QUANTITY</th>
+                                            <th class="tx-right">PRICE</th>
+                                            <th class="tx-center">DISCOUNT</th>
+                                            <th class="tx-right">TAX</th>
+                                            <th class="tx-right">TOTAL</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Huawei - Y5 Lite 1+16 Blue</td>
+                                            <td class="tx-12">HU-Y5LiteZBEGY</td>
+                                            <td class="tx-center">EA</td>
+                                            <td class="tx-right">10</td>
+                                            <td class="tx-right">1017.088141</td>
+                                            <td class="tx-center">0.000000</td>
+                                            <td class="tx-right">0.000000</td>
+                                            <td class="tx-right">10,170.881410</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="valign-middle" colspan="2" rowspan="5">
+                                            </td>
+                                            <td class="tx-right" colspan="2">Gross Total</td>
+                                            <td class="tx-right" colspan="4">10,170.881410</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="tx-right" colspan="2">Discount</td>
+                                            <td class="tx-right" colspan="4">10,170.881410</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="tx-right" colspan="2">Tax</td>
+                                            <td class="tx-right" colspan="4">10,170.881410</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="tx-right" colspan="2">Net Total</td>
+                                            <td class="tx-right" colspan="4">10,170.881410</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="tx-right" colspan="2">Items Count</td>
+                                            <td class="tx-right" colspan="4">10,170.881410</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
-                            <div style="text-align: center" class="card-body">
-                                <p class="card-text">Staff</p>
-                                <button style="width: 100%" class="btn ripple btn-outline-primary">Enter</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="card overflow-hidden custom-card ">
-                            <div class="d-flex justify-content-center">
-                                <img style="max-width: 100px !important;" alt="Image" class="img-fluid b-img" src="assets/img/mine/machine.png">
-                            </div>
-                            <div style="text-align: center" class="card-body">
-                                <p class="card-text">Machines</p>
-                                <button style="width: 100%" class="btn ripple btn-outline-primary">Enter</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="card overflow-hidden custom-card ">
-                            <div class="d-flex justify-content-center">
-                                <img style="max-width: 100px !important;" alt="Image" class="img-fluid b-img" src="assets/img/mine/customer.png">
-                            </div>
-                            <div style="text-align: center" class="card-body">
-                                <p class="card-text">Customers</p>
-                                <button style="width: 100%" class="btn ripple btn-outline-primary">Enter</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="card overflow-hidden custom-card ">
-                            <div class="d-flex justify-content-center">
-                                <img style="max-width: 100px !important;" alt="Image" class="img-fluid b-img" src="assets/img/mine/product.png">
-                            </div>
-                            <div style="text-align: center" class="card-body">
-                                <p class="card-text">Products</p>
-                                <button style="width: 100%" class="btn ripple btn-outline-primary">Enter</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="card overflow-hidden custom-card ">
-                            <div class="d-flex justify-content-center">
-                                <img style="max-width: 100px !important;" alt="Image" class="img-fluid b-img" src="assets/img/mine/survey.png">
-                            </div>
-                            <div style="text-align: center" class="card-body">
-                                <p class="card-text">Dynamic Forms</p>
-                                <button style="width: 100%" class="btn ripple btn-outline-primary">Enter</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="card overflow-hidden custom-card ">
-                            <div class="d-flex justify-content-center">
-                                <img style="max-width: 100px !important;" alt="Image" class="img-fluid b-img" src="assets/img/mine/offer.png">
-                            </div>
-                            <div style="text-align: center" class="card-body">
-                                <p class="card-text">Prices & Offers</p>
-                                <button style="width: 100%" class="btn ripple btn-outline-primary">Enter</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="card overflow-hidden custom-card ">
-                            <div class="d-flex justify-content-center">
-                                <img style="max-width: 100px !important;" alt="Image" class="img-fluid b-img" src="assets/img/mine/warehouse.png">
-                            </div>
-                            <div style="text-align: center" class="card-body">
-                                <p class="card-text">WAREHOUSES & VEHICLES</p>
-                                <button style="width: 100%" class="btn ripple btn-outline-primary">Enter</button>
+                            <div class="card-footer text-end">
+                                <button type="button" class="btn ripple btn-info mb-1" onclick="javascript:window.print();"><i class="fe fe-printer me-1"></i> Print Invoice</button>
                             </div>
                         </div>
                     </div>

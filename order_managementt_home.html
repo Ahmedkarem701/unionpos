@@ -1,0 +1,1630 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <meta name="description" content="Union POS">
+    <meta name="author" content="Union Group">
+    <meta name="keywords" content="Union pos">
+
+    <!-- TITLE -->
+    <title> Union POS </title>
+
+    <!-- FAVICON -->
+    <link rel="icon" href="https://unionstore.com/public/uploads/all/8ij2D1p796CacWhVE36I3rvXjXfsTMVvYwJbynG1.png">
+
+
+    <!-- BOOTSTRAP CSS -->
+    <link id="style" href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- ICONS CSS -->
+    <link href="assets/plugins/web-fonts/icons.css" rel="stylesheet">
+    <link href="assets/plugins/web-fonts/font-awesome/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/plugins/web-fonts/plugin.css" rel="stylesheet">
+
+    <!-- STYLE CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/plugins.css" rel="stylesheet">
+
+    <!-- SWITCHER CSS -->
+    <link href="assets/switcher/css/switcher.css" rel="stylesheet">
+    <link href="assets/switcher/demo.css" rel="stylesheet">
+
+
+</head>
+
+<body class="ltr main-body leftmenu">
+<!-- SWITCHER -->
+
+<div class="switcher-wrapper">
+    <div class="demo_changer">
+        <div class="form_holder sidebar-right1">
+            <div class="row">
+                <div class="predefined_styles">
+                    <div class="swichermainleft">
+                        <h4>Arabic and English Versions</h4>
+                        <div class="skin-body">
+                            <div class="switch_section">
+                                <div class="switch-toggle d-flex">
+                                    <span class="me-auto">English</span>
+                                    <p class="onoffswitch2"><input type="radio" name="onoffswitch7"
+                                                                   id="myonoffswitch19" class="onoffswitch2-checkbox"
+                                                                   checked>
+                                        <label for="myonoffswitch19" class="onoffswitch2-label"></label>
+                                    </p>
+                                </div>
+                                <div class="switch-toggle d-flex mt-2">
+                                    <span class="me-auto">Arabic</span>
+                                    <p class="onoffswitch2"><input type="radio" name="onoffswitch7"
+                                                                   id="myonoffswitch20" class="onoffswitch2-checkbox">
+                                        <label for="myonoffswitch20" class="onoffswitch2-label"></label>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swichermainleft menu-styles">
+                        <h4>Navigation Style</h4>
+                        <div class="skin-body">
+                            <div class="switch_section">
+                                <div class="switch-toggle d-flex">
+                                    <span class="me-auto">Vertical Menu</span>
+                                    <p class="onoffswitch2"><input type="radio" name="onoffswitch01"
+                                                                   id="myonoffswitch01" class="onoffswitch2-checkbox"
+                                                                   checked>
+                                        <label for="myonoffswitch01" class="onoffswitch2-label"></label>
+                                    </p>
+                                </div>
+                                <div class="switch-toggle d-flex mt-2">
+                                    <span class="me-auto">Horizontal Click Menu</span>
+                                    <p class="onoffswitch2"><input type="radio" name="onoffswitch01"
+                                                                   id="myonoffswitch02" class="onoffswitch2-checkbox">
+                                        <label for="myonoffswitch02" class="onoffswitch2-label"></label>
+                                    </p>
+                                </div>
+                                <div class="switch-toggle d-flex mt-2">
+                                    <span class="me-auto">Horizontal Hover Menu</span>
+                                    <p class="onoffswitch2"><input type="radio" name="onoffswitch01"
+                                                                   id="myonoffswitch03" class="onoffswitch2-checkbox">
+                                        <label for="myonoffswitch03" class="onoffswitch2-label"></label>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swichermainleft">
+                        <h4>Light Theme Style</h4>
+                        <div class="skin-body">
+                            <div class="switch_section">
+                                <div class="switch-toggle d-flex">
+                                    <span class="me-auto">Light Theme</span>
+                                    <p class="onoffswitch2"><input type="radio" name="onoffswitch1"
+                                                                   id="myonoffswitch1" class="onoffswitch2-checkbox"
+                                                                   checked>
+                                        <label for="myonoffswitch1" class="onoffswitch2-label"></label>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swichermainleft">
+                        <h4>Dark Theme Style</h4>
+                        <div class="skin-body">
+                            <div class="switch_section">
+                                <div class="switch-toggle d-flex">
+                                    <span class="me-auto">Dark Theme</span>
+                                    <p class="onoffswitch2"><input type="radio" name="onoffswitch1"
+                                                                   id="myonoffswitch2" class="onoffswitch2-checkbox">
+                                        <label for="myonoffswitch2" class="onoffswitch2-label"></label>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END SWITCHER -->
+
+<!-- LOADEAR -->
+<div id="global-loader">
+    <img src="https://unionstore.com/public/uploads/all/8ij2D1p796CacWhVE36I3rvXjXfsTMVvYwJbynG1.png" class="loader-img"
+         alt="Loader">
+</div>
+<!-- END LOADEAR -->
+
+<!-- PAGE -->
+<div class="page">
+
+    <!-- HEADER -->
+
+    <div class="main-header side-header sticky">
+        <div class="main-container container-fluid">
+            <div class="main-header-left">
+                <a class="main-header-menu-icon" href="javascript:void(0);" id="mainSidebarToggle"><span></span></a>
+                <div class="hor-logo">
+                    <a class="main-logo" href="index.html">
+                        <img style="width: 180px;"
+                             src="https://unionstore.com/public/uploads/all/SUZAcWmqEDYcYHmlKlDt5oxUV8vGIoqDIb6XwyBD.png"
+                             class="header-brand-img desktop-logo" alt="logo">
+                        <img style="width: 180px;"
+                             src="https://unionstore.com/public/uploads/all/SUZAcWmqEDYcYHmlKlDt5oxUV8vGIoqDIb6XwyBD.png"
+                             class="header-brand-img desktop-logo-dark"
+                             alt="logo">
+                    </a>
+                </div>
+            </div>
+            <div class="main-header-center">
+                <div class="responsive-logo">
+                    <a href="index.html"><img style="width: 180px;"
+                                              src="https://unionstore.com/public/uploads/all/SUZAcWmqEDYcYHmlKlDt5oxUV8vGIoqDIb6XwyBD.png"
+                                              class="mobile-logo" alt="logo"></a>
+                    <a href="index.html"><img style="width: 180px;"
+                                              src="https://unionstore.com/public/uploads/all/SUZAcWmqEDYcYHmlKlDt5oxUV8vGIoqDIb6XwyBD.png"
+                                              class="mobile-logo-dark"
+                                              alt="logo"></a>
+                </div>
+                <div class="input-group">
+                    <input type="search" class="form-control rounded-0" placeholder="Search for anything...">
+                    <button class="btn search-btn"><i class="fe fe-search"></i></button>
+                </div>
+            </div>
+            <div class="main-header-right">
+                <button class="navbar-toggler navresponsive-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fe fe-more-vertical header-icons navbar-toggler-icon"></i>
+                </button><!-- Navresponsive closed -->
+                <div
+                        class="navbar navbar-expand-lg  nav nav-item  navbar-nav-right responsive-navbar navbar-dark  ">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+                        <div class="d-flex order-lg-2 ms-auto">
+                            <!-- Search -->
+                            <div class="dropdown header-search">
+                                <a class="nav-link icon header-search">
+                                    <i class="fe fe-search header-icons"></i>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <div class="main-form-search p-2">
+                                        <div class="input-group">
+                                            <input type="search" class="form-control"
+                                                   placeholder="Search for anything...">
+                                            <button class="btn search-btn">
+                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                     width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                                     stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                     stroke-linejoin="round" class="feather feather-search">
+                                                    <circle cx="11" cy="11" r="8"></circle>
+                                                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Search -->
+                            <!-- Theme-Layout -->
+                            <div class="dropdown d-flex main-header-theme">
+                                <a class="nav-link icon layout-setting">
+											<span class="dark-layout">
+												<i class="fe fe-sun header-icons"></i>
+											</span>
+                                    <span class="light-layout">
+												<i class="fe fe-moon header-icons"></i>
+											</span>
+                                </a>
+                            </div>
+                            <!-- Theme-Layout -->
+
+                            <!-- Full screen -->
+                            <div class="dropdown ">
+                                <a class="nav-link icon full-screen-link">
+                                    <i class="fe fe-maximize fullscreen-button fullscreen header-icons"></i>
+                                    <i class="fe fe-minimize fullscreen-button exit-fullscreen header-icons"></i>
+                                </a>
+                            </div>
+                            <!-- Full screen -->
+                            <!-- Profile -->
+                            <div class="dropdown main-profile-menu">
+                                <a class="d-flex" href="javascript:void(0);">
+											<span class="main-img-user"><img alt="avatar"
+                                                                             src="assets/img/users/1.jpg"></span>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <div class="header-navheading">
+                                        <h6 class="main-notification-title">Sonia Taylor</h6>
+                                    </div>
+                                    <a class="dropdown-item border-top" href="profile.html">
+                                        <i class="fe fe-user"></i> My Profile
+                                    </a>
+                                    <a class="dropdown-item" href="profile.html">
+                                        <i class="fe fe-settings"></i> Support
+                                    </a>
+                                    <a class="dropdown-item" href="signin.html">
+                                        <i class="fe fe-power"></i> Sign Out
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Profile -->
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex header-setting-icon demo-icon fa-spin">
+                    <a class="nav-link icon" href="javascript:void(0);">
+                        <i class="fe fe-settings settings-icon "></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END HEADER -->
+
+    <!-- SIDEBAR -->
+
+    <div class="sticky">
+        <div class="main-menu main-sidebar main-sidebar-sticky side-menu">
+            <div class="main-sidebar-header main-container-1 active">
+                <div class="sidemenu-logo">
+                    <a class="main-logo" href="index.html">
+                        <img style="width: 150px;"
+                             src="https://unionstore.com/public/uploads/all/SUZAcWmqEDYcYHmlKlDt5oxUV8vGIoqDIb6XwyBD.png"
+                             class="header-brand-img desktop-logo" alt="logo">
+                        <img style="width: 150px;"
+                             src="https://unionstore.com/public/uploads/all/SUZAcWmqEDYcYHmlKlDt5oxUV8vGIoqDIb6XwyBD.png"
+                             class="header-brand-img icon-logo" alt="logo">
+                        <img style="width: 150px;"
+                             src="https://unionstore.com/public/uploads/all/SUZAcWmqEDYcYHmlKlDt5oxUV8vGIoqDIb6XwyBD.png"
+                             class="header-brand-img desktop-logo theme-logo"
+                             alt="logo">
+                        <img style="width: 150px;"
+                             src="https://unionstore.com/public/uploads/all/SUZAcWmqEDYcYHmlKlDt5oxUV8vGIoqDIb6XwyBD.png"
+                             class="header-brand-img icon-logo theme-logo"
+                             alt="logo">
+                    </a>
+                </div>
+                <div class="main-sidebar-body main-body-1">
+                    <div class="slide-left disabled" id="slide-left"><i class="fe fe-chevron-left"></i></div>
+                    <ul class="menu-nav nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">
+                                <span class="shape1"></span>
+                                <span class="shape2"></span>
+                                <i class="fa fa-bars sidemenu-icon menu-icon"></i>
+                                <span class="sidemenu-label">Data Definitions</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="shape1"></span>
+                                <span class="shape2"></span>
+                                <i class="ti-shopping-cart-full sidemenu-icon menu-icon "></i>
+                                <span class="sidemenu-label">Orders Management</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="shape1"></span>
+                                <span class="shape2"></span>
+                                <i class="fa fa-home sidemenu-icon menu-icon "></i>
+                                <span class="sidemenu-label">Warehouse Operations</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="shape1"></span>
+                                <span class="shape2"></span>
+                                <i class="fa fa-ambulance sidemenu-icon menu-icon "></i>
+                                <span class="sidemenu-label">Vehicle Operations</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="shape1"></span>
+                                <span class="shape2"></span>
+                                <i class="mdi mdi-arrow-up sidemenu-icon menu-icon "></i>
+                                <span class="sidemenu-label">Trips Managements</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="shape1"></span>
+                                <span class="shape2"></span>
+                                <i class="si si-people sidemenu-icon menu-icon "></i>
+                                <span class="sidemenu-label">Employee Operations</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="shape1"></span>
+                                <span class="shape2"></span>
+                                <i class="mdi mdi-account-settings-variant sidemenu-icon menu-icon "></i>
+                                <span class="sidemenu-label">Customer Operations</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="shape1"></span>
+                                <span class="shape2"></span>
+                                <i class="si si-book-open sidemenu-icon menu-icon "></i>
+                                <span class="sidemenu-label">Reports</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="shape1"></span>
+                                <span class="shape2"></span>
+                                <i class="si si-graph sidemenu-icon menu-icon "></i>
+                                <span class="sidemenu-label">Dashboards</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="shape1"></span>
+                                <span class="shape2"></span>
+                                <i class="fa fa-cny sidemenu-icon menu-icon "></i>
+                                <span class="sidemenu-label">Proofs</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="shape1"></span>
+                                <span class="shape2"></span>
+                                <i class="fa fa-bar-chart-o sidemenu-icon menu-icon "></i>
+                                <span class="sidemenu-label">Data Review</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="shape1"></span>
+                                <span class="shape2"></span>
+                                <i class="ti-shopping-cart-full sidemenu-icon menu-icon "></i>
+                                <span class="sidemenu-label">Consignment Order</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="shape1"></span>
+                                <span class="shape2"></span>
+                                <i class="fe fe-globe sidemenu-icon menu-icon "></i>
+                                <span class="sidemenu-label">Setting</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="slide-right" id="slide-right"><i class="fe fe-chevron-right"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END SIDEBAR -->
+
+    <!-- MAIN-CONTENT -->
+    <div class="main-content side-content pt-0">
+        <div class="main-container container-fluid">
+            <div class="inner-body">
+
+
+                <!-- Page Header -->
+                <div class="page-header">
+                    <div>
+                        <h2 class="main-content-title tx-24 mg-b-5">Order Management Home</h2>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="javascript:void(0);">Order Management</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Home</li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Page Header -->
+
+                <!-- Row -->
+                <div class="row sidemenu-height">
+                    <div class="col-xl-12">
+                        <!-- div -->
+                        <div class="card custom-card mg-b-20" id="tabs-style3">
+                            <div>
+                                <div class="text-wrap">
+                                    <div>
+                                        <div class="panel panel-primary tabs-style-3">
+                                            <div class="tab-menu-heading">
+                                                <div class="tabs-menu ">
+                                                    <!-- Tabs -->
+                                                    <ul class="nav panel-tabs">
+                                                        <li class=""><a href="#tab11" class="active"
+                                                                        data-bs-toggle="tab"> Home</a></li>
+                                                        <li><a href="#tab12" data-bs-toggle="tab"> Pending</a></li>
+                                                        <li><a href="#tab13" data-bs-toggle="tab"> Approved</a></li>
+                                                        <li><a href="#tab14" data-bs-toggle="tab"> Assigned</a></li>
+                                                        <li><a href="#tab15" data-bs-toggle="tab"> Invoice Order</a>
+                                                        </li>
+                                                        <li><a href="#tab16" data-bs-toggle="tab"> Recurring</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="panel-body tabs-menu-body">
+                                                <div class="tab-content">
+                                                    <div class="tab-pane active" id="tab11">
+                                                        <div class="row row-sm">
+                                                            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                                                                <div class="card custom-card">
+                                                                    <div style="border: 1px solid;border-radius: 10px;"
+                                                                         class="card-body">
+                                                                        <div class="card-order ">
+                                                                            <label class="main-content-label mb-3 pt-1">Over
+                                                                                all Orders</label>
+                                                                            <h2 class="text-end card-item-icon card-icon">
+                                                                                <i class="icon-size mdi mdi-poll-box float-start text-primary"></i><span
+                                                                                    class="font-weight-bold">3,672 EGP</span>
+                                                                            </h2>
+                                                                            <p class="mb-0 mt-4 text-muted">Total Count
+                                                                                <span class="float-end">10</span></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- COL END -->
+                                                            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                                                                <div class="card custom-card">
+                                                                    <div style="border: 1px solid;border-radius: 10px;"
+                                                                         class="card-body">
+                                                                        <div class="card-order ">
+                                                                            <label class="main-content-label mb-3 pt-1">Pending</label>
+                                                                            <h2 class="text-end card-item-icon card-icon">
+                                                                                <i class="icon-size mdi mdi-poll-box float-start text-primary"></i><span
+                                                                                    class="font-weight-bold">3,672 EGP</span>
+                                                                            </h2>
+                                                                            <p class="mb-0 mt-4 text-muted">Total Count
+                                                                                <span class="float-end">10</span></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- COL END -->
+                                                            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                                                                <div class="card custom-card">
+                                                                    <div style="border: 1px solid;border-radius: 10px;"
+                                                                         class="card-body">
+                                                                        <div class="card-order ">
+                                                                            <label class="main-content-label mb-3 pt-1">Ready
+                                                                                To Delivery</label>
+                                                                            <h2 class="text-end card-item-icon card-icon">
+                                                                                <i class="icon-size mdi mdi-poll-box float-start text-primary"></i><span
+                                                                                    class="font-weight-bold">3,672 EGP</span>
+                                                                            </h2>
+                                                                            <p class="mb-0 mt-4 text-muted">Total Count
+                                                                                <span class="float-end">10</span></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- COL END -->
+                                                            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                                                                <div class="card custom-card">
+                                                                    <div style="border: 1px solid;border-radius: 10px;"
+                                                                         class="card-body">
+                                                                        <div class="card-order ">
+                                                                            <label class="main-content-label mb-3 pt-1">Delivered</label>
+                                                                            <h2 class="text-end card-item-icon card-icon">
+                                                                                <i class="icon-size mdi mdi-poll-box float-start text-primary"></i><span
+                                                                                    class="font-weight-bold">3,672 EGP</span>
+                                                                            </h2>
+                                                                            <p class="mb-0 mt-4 text-muted">Total Count
+                                                                                <span class="float-end">10</span></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- COL END -->
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane" id="tab12">
+                                                        <div class="row sidemenu-height">
+                                                            <div class="col-lg-12">
+                                                                <div class="card custom-card overflow-hidden">
+                                                                    <div class="card-body">
+                                                                        <div class="d-flex justify-content-end">
+                                                                            <div class="justify-content-center">
+                                                                                <!-- Import Employees -->
+                                                                                <button type="button"
+                                                                                        class="btn btn-success btn-icon-text my-2 me-2">
+                                                                                    <i class="fa fa-check-square me-2"></i>
+                                                                                    Accept
+                                                                                </button>
+
+                                                                                <button type="button"
+                                                                                        class="btn btn-danger btn-icon-text my-2 me-2">
+                                                                                    <i class="fa fa-close me-2"></i>
+                                                                                    Decline
+                                                                                </button>
+                                                                                <!-- End Import Employees -->
+                                                                                <button type="button"
+                                                                                        class="btn btn-secondary btn-icon-text my-2 me-2"
+                                                                                        data-bs-target="#modaldemo13"
+                                                                                        data-bs-toggle="modal">
+                                                                                    <i class="fe fe-filter me-2"></i>
+                                                                                    Filter
+                                                                                </button>
+                                                                                <div class="modal fade"
+                                                                                     id="modaldemo13">
+                                                                                    <div class="modal-dialog"
+                                                                                         role="document">
+                                                                                        <div class="modal-content modal-content-demo">
+                                                                                            <div class="modal-header">
+                                                                                                <button aria-label="Close"
+                                                                                                        class="btn-close"
+                                                                                                        data-bs-dismiss="modal"
+                                                                                                        type="button">
+                                                                                                    <span aria-hidden="true">×</span>
+                                                                                                </button>
+                                                                                            </div>
+                                                                                            <div class="modal-body">
+                                                                                                <form>
+                                                                                                    <div style="margin-bottom: 30px !important;"
+                                                                                                         class="col-sm-12 mg-t-20 mg-sm-t-0">
+                                                                                                        <label class="">Division</label>
+                                                                                                        <select class="form-control select select2">
+                                                                                                            <option label="Month"></option>
+                                                                                                            <option value="January">
+                                                                                                                January
+                                                                                                            </option>
+                                                                                                            <option value="February">
+                                                                                                                February
+                                                                                                            </option>
+
+                                                                                                        </select>
+                                                                                                        <label class="">Customer</label>
+                                                                                                        <select class="form-control select select2">
+                                                                                                            <option label="Month"></option>
+                                                                                                            <option value="January">
+                                                                                                                January
+                                                                                                            </option>
+                                                                                                            <option value="February">
+                                                                                                                February
+                                                                                                            </option>
+
+                                                                                                        </select>
+                                                                                                        <label class="">Outlet</label>
+                                                                                                        <select class="form-control select select2">
+                                                                                                            <option label="Month"></option>
+                                                                                                            <option value="January">
+                                                                                                                January
+                                                                                                            </option>
+                                                                                                            <option value="February">
+                                                                                                                February
+                                                                                                            </option>
+
+                                                                                                        </select>
+                                                                                                        <div>
+                                                                                                            <label class="">Order Date</label>
+                                                                                                            <div class="input-group">
+                                                                                                                <div class="input-group-text border-end-0">
+                                                                                                                    <i class="fe fe-calendar lh--9 op-6"></i>
+                                                                                                                </div>
+                                                                                                                <input class="form-control" placeholder="Input box" type="date">
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                        <div>
+                                                                                                            <label class="">Desired Delivery Date</label>
+                                                                                                            <div class="input-group">
+                                                                                                                <div class="input-group-text border-end-0">
+                                                                                                                    <i class="fe fe-calendar lh--9 op-6"></i>
+                                                                                                                </div>
+                                                                                                                <input class="form-control" placeholder="Input box" type="date">
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                        <label class="">Employee</label>
+                                                                                                        <select class="form-control select select2">
+                                                                                                            <option label="Month"></option>
+                                                                                                            <option value="January">
+                                                                                                                January
+                                                                                                            </option>
+                                                                                                            <option value="February">
+                                                                                                                February
+                                                                                                            </option>
+
+                                                                                                        </select>
+                                                                                                    </div>
+                                                                                                    <div class="d-flex justify-content-center">
+                                                                                                        <button style="width: 40%;margin-top: 10px;"
+                                                                                                                class="btn ripple btn-success"
+                                                                                                                type="submit">
+                                                                                                            Submit
+                                                                                                        </button>
+                                                                                                    </div>
+                                                                                                </form>
+                                                                                            </div>
+                                                                                            <div class="modal-footer">
+                                                                                                <button class="btn ripple btn-danger"
+                                                                                                        data-bs-dismiss="modal"
+                                                                                                        type="button">
+                                                                                                    Close
+                                                                                                </button>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!-- End Import Employees -->
+
+
+                                                                                <button type="button"
+                                                                                        class="btn btn-success my-2 btn-icon-text"
+                                                                                        data-bs-target="#modaldemo9"
+                                                                                        data-bs-toggle="modal">
+                                                                                    <i class="fe fe-download-cloud me-2"></i>
+                                                                                    Add new
+                                                                                </button>
+
+                                                                                <div class="modal fade" id="modaldemo9">
+                                                                                    <div class="modal-dialog modal-xl"
+                                                                                         role="document">
+                                                                                        <div class="modal-content modal-content-demo">
+                                                                                            <div class="modal-header">
+                                                                                                <h6 class="modal-title">
+                                                                                                    NEW ORDER</h6>
+                                                                                                <button aria-label="Close"
+                                                                                                        class="btn-close"
+                                                                                                        data-bs-dismiss="modal"
+                                                                                                        type="button">
+                                                                                                    <span aria-hidden="true">×</span>
+                                                                                                </button>
+                                                                                            </div>
+                                                                                            <div class="modal-body">
+                                                                                                <form>
+                                                                                                    <section>
+                                                                                                        <div class="row row-sm">
+                                                                                                            <div class="col-md-6">
+                                                                                                                <div class="form-group">
+                                                                                                                    <p class="mg-b-10">
+                                                                                                                        Order Id ( * )</p>
+                                                                                                                    <input type="text"
+                                                                                                                           class="form-control"
+                                                                                                                           name="example-text-input"
+                                                                                                                           placeholder="Order Id ( * )">
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="col-md-6">
+                                                                                                                <div class="form-group">
+                                                                                                                    <p class="mg-b-10">
+                                                                                                                        Customer ( * )
+                                                                                                                    </p>
+                                                                                                                    <select class="form-control select select2">
+                                                                                                                        <option label="Customer ( * )"></option>
+                                                                                                                        <option value="January">
+                                                                                                                            January
+                                                                                                                        </option>
+                                                                                                                        <option value="February">
+                                                                                                                            February
+                                                                                                                        </option>
+
+                                                                                                                    </select>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="col-md-6">
+                                                                                                                <div class="form-group">
+                                                                                                                    <p class="mg-b-10">
+                                                                                                                        Outlet ( * )
+                                                                                                                    </p>
+                                                                                                                    <input type="text"
+                                                                                                                           class="form-control"
+                                                                                                                           name="example-disabled-input"
+                                                                                                                           placeholder="Outlet ( * )">
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="col-md-6">
+                                                                                                                <div class="form-group">
+                                                                                                                    <p class="mg-b-10">
+                                                                                                                        Desired Delivery Date ( * )</p>
+                                                                                                                    <input type="date"
+                                                                                                                           class="form-control"
+                                                                                                                           name="example-disabled-input"
+                                                                                                                           placeholder="Disabled text area..">
+
+                                                                                                                </div>
+
+                                                                                                            </div>
+                                                                                                            <div class="col-md-6">
+                                                                                                                <div class="form-group">
+                                                                                                                    <p class="mg-b-10">
+                                                                                                                        Division ( * )
+                                                                                                                    </p>
+                                                                                                                    <select class="form-control select select2">
+                                                                                                                        <option label="Division"></option>
+                                                                                                                        <option value="January">
+                                                                                                                            January
+                                                                                                                        </option>
+                                                                                                                        <option value="February">
+                                                                                                                            February
+                                                                                                                        </option>
+
+                                                                                                                    </select>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="col-md-6">
+                                                                                                                <div class="form-group">
+                                                                                                                    <p class="mg-b-10">
+                                                                                                                        Notes</p>
+                                                                                                                    <input type="text"
+                                                                                                                           class="form-control"
+                                                                                                                           name="example-disabled-input"
+                                                                                                                           placeholder="Notes">
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="col-md-12">
+                                                                                                                <div class="form-group">
+                                                                                                                    <p class="mg-b-10">
+                                                                                                                        LPO</p>
+                                                                                                                    <input type="text"
+                                                                                                                           class="form-control"
+                                                                                                                           name="example-disabled-input"
+                                                                                                                           placeholder="LPO">
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <button style="width: 20%;" class="btn ripple btn-success"
+                                                                                                                    type="submit">
+                                                                                                                Save
+                                                                                                                changes
+                                                                                                            </button>
+                                                                                                        </div>
+                                                                                                    </section>
+                                                                                                </form>
+                                                                                            </div>
+                                                                                            <div class="modal-footer">
+                                                                                                <button class="btn ripple btn-danger"
+                                                                                                        data-bs-dismiss="modal"
+                                                                                                        type="button">
+                                                                                                    Close
+                                                                                                </button>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="table-responsive">
+                                                                            <table class="table table-bordered border-bottom"
+                                                                                   id="example1">
+                                                                                <thead>
+                                                                                <tr>
+                                                                                    <th class="wd-20p">
+                                                                                        <input class="form-check" type="checkbox">
+                                                                                    </th>
+                                                                                    <th class="wd-25p"> ORDER ID</th>
+                                                                                    <th class="wd-20p">CUSTOMER NAME</th>
+                                                                                    <th class="wd-15p">OUTLET NAME</th>
+                                                                                    <th class="wd-20p">EMPLOYEE NAME</th>
+                                                                                    <th class="wd-20p">ORDER DATE</th>
+                                                                                    <th class="wd-15p">DESIRED DELIVERY DATE</th>
+                                                                                    <th class="wd-20p"> DIVISION</th>
+                                                                                    <th class="wd-20p"> Action</th>
+                                                                                </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <input class="form-check" type="checkbox">
+                                                                                    </td>
+                                                                                    <td>OID-UPREP329-000001</td>
+                                                                                    <td>البرنس</td>
+                                                                                    <td>البرنس MOBILES</td>
+                                                                                    <td>UP Ahmed Bayoumi Shishtawi Bayoumi</td>
+                                                                                    <td>03/09/2019 03:12 PM</td>
+                                                                                    <td>03/09/2019 03:12 PM</td>
+                                                                                    <td>HUAWEI HHP</td>
+                                                                                    <td>
+                                                                                        <button type="button"
+                                                                                                class="btn btn-success btn-icon-text my-2 me-2">
+                                                                                            <i class="fa fa-check-square me-2"></i>
+                                                                                            Accept
+                                                                                        </button>
+
+                                                                                        <button type="button"
+                                                                                                class="btn btn-danger btn-icon-text my-2 me-2">
+                                                                                            <i class="fa fa-close me-2"></i>
+                                                                                            Decline
+                                                                                        </button>
+
+                                                                                        <button type="button"
+                                                                                                class="btn btn-dark btn-icon-text my-2 me-2"
+                                                                                                data-bs-target="#modaldemo9"
+                                                                                                data-bs-toggle="modal">
+                                                                                            <i class="fa fa-edit me-2"></i>
+                                                                                            Edit
+                                                                                        </button>
+
+                                                                                        <a href="invoice.html" type="button"
+                                                                                                class="btn btn-secondary btn-icon-text my-2 me-2">
+                                                                                            <i class="fa fa-eye me-2"></i>
+                                                                                            View
+                                                                                        </a>
+
+                                                                                    </td>
+                                                                                </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane" id="tab13">
+                                                        <div class="row sidemenu-height">
+                                                            <div class="col-lg-12">
+                                                                <div class="card custom-card overflow-hidden">
+                                                                    <div class="card-body">
+                                                                        <div class="d-flex justify-content-end">
+                                                                            <div class="justify-content-center">
+                                                                                <button type="button"
+                                                                                        class="btn btn-secondary btn-icon-text my-2 me-2"
+                                                                                        data-bs-target="#modaldemo133"
+                                                                                        data-bs-toggle="modal">
+                                                                                    <i class="fe fe-filter me-2"></i>
+                                                                                    Filter
+                                                                                </button>
+                                                                                <div class="modal fade"
+                                                                                     id="modaldemo133">
+                                                                                    <div class="modal-dialog"
+                                                                                         role="document">
+                                                                                        <div class="modal-content modal-content-demo">
+                                                                                            <div class="modal-header">
+                                                                                                <button aria-label="Close"
+                                                                                                        class="btn-close"
+                                                                                                        data-bs-dismiss="modal"
+                                                                                                        type="button">
+                                                                                                    <span aria-hidden="true">×</span>
+                                                                                                </button>
+                                                                                            </div>
+                                                                                            <div class="modal-body">
+                                                                                                <form>
+                                                                                                    <div style="margin-bottom: 30px !important;"
+                                                                                                         class="col-sm-12 mg-t-20 mg-sm-t-0">
+                                                                                                        <label class="">Employee</label>
+                                                                                                        <select class="form-control select select2">
+                                                                                                            <option label="Month"></option>
+                                                                                                            <option value="January">
+                                                                                                                January
+                                                                                                            </option>
+                                                                                                            <option value="February">
+                                                                                                                February
+                                                                                                            </option>
+
+                                                                                                        </select>
+                                                                                                        <label class="">Customer</label>
+                                                                                                        <select class="form-control select select2">
+                                                                                                            <option label="Month"></option>
+                                                                                                            <option value="January">
+                                                                                                                January
+                                                                                                            </option>
+                                                                                                            <option value="February">
+                                                                                                                February
+                                                                                                            </option>
+
+                                                                                                        </select>
+                                                                                                        <label class="">Outlet</label>
+                                                                                                        <select class="form-control select select2">
+                                                                                                            <option label="Month"></option>
+                                                                                                            <option value="January">
+                                                                                                                January
+                                                                                                            </option>
+                                                                                                            <option value="February">
+                                                                                                                February
+                                                                                                            </option>
+
+                                                                                                        </select>
+                                                                                                        <div>
+                                                                                                            <label class="">Order Date</label>
+                                                                                                            <div class="input-group">
+                                                                                                                <div class="input-group-text border-end-0">
+                                                                                                                    <i class="fe fe-calendar lh--9 op-6"></i>
+                                                                                                                </div>
+                                                                                                                <input class="form-control" placeholder="Input box" type="date">
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                        <div>
+                                                                                                            <label class="">Desired Delivery Date</label>
+                                                                                                            <div class="input-group">
+                                                                                                                <div class="input-group-text border-end-0">
+                                                                                                                    <i class="fe fe-calendar lh--9 op-6"></i>
+                                                                                                                </div>
+                                                                                                                <input class="form-control" placeholder="Input box" type="date">
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="d-flex justify-content-center">
+                                                                                                        <button style="width: 40%;margin-top: 10px;"
+                                                                                                                class="btn ripple btn-success"
+                                                                                                                type="submit">
+                                                                                                            Dispatch
+                                                                                                        </button>
+                                                                                                    </div>
+                                                                                                </form>
+                                                                                            </div>
+                                                                                            <div class="modal-footer">
+                                                                                                <button class="btn ripple btn-danger"
+                                                                                                        data-bs-dismiss="modal"
+                                                                                                        type="button">
+                                                                                                    Close
+                                                                                                </button>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="table-responsive">
+                                                                            <table class="table table-bordered border-bottom"
+                                                                                   id="example11">
+                                                                                <thead>
+                                                                                <tr>
+                                                                                    <th class="wd-20p">
+                                                                                        <input class="form-check" type="checkbox">
+                                                                                    </th>
+                                                                                    <th class="wd-25p"> ORDER ID</th>
+                                                                                    <th class="wd-20p">CUSTOMER NAME</th>
+                                                                                    <th class="wd-15p">OUTLET NAME</th>
+                                                                                    <th class="wd-20p">EMPLOYEE NAME</th>
+                                                                                    <th class="wd-20p">ORDER DATE</th>
+                                                                                    <th class="wd-15p">DESIRED DELIVERY DATE</th>
+                                                                                    <th class="wd-20p"> DIVISION</th>
+                                                                                    <th class="wd-20p"> Action</th>
+                                                                                </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <input class="form-check" type="checkbox">
+                                                                                    </td>
+                                                                                    <td>OID-UPREP329-000001</td>
+                                                                                    <td>البرنس</td>
+                                                                                    <td>البرنس MOBILES</td>
+                                                                                    <td>UP Ahmed Bayoumi Shishtawi Bayoumi</td>
+                                                                                    <td>03/09/2019 03:12 PM</td>
+                                                                                    <td>03/09/2019 03:12 PM</td>
+                                                                                    <td>HUAWEI HHP</td>
+                                                                                    <td>
+                                                                                        <button type="button"
+                                                                                                class="btn btn-success btn-icon-text my-2 me-2">
+                                                                                            <i class="fa fa-check-square me-2"></i>
+
+                                                                                        </button>
+
+                                                                                        <button type="button"
+                                                                                                class="btn btn-danger btn-icon-text my-2 me-2">
+                                                                                            <i class="fa fa-close me-2"></i>
+
+                                                                                        </button>
+
+                                                                                        <button type="button"
+                                                                                                class="btn btn-dark btn-icon-text my-2 me-2"
+                                                                                                data-bs-target="#modaldemo9"
+                                                                                                data-bs-toggle="modal">
+                                                                                            <i class="fa fa-edit me-2"></i>
+
+                                                                                        </button>
+
+                                                                                        <a href="invoice.html" type="button"
+                                                                                           class="btn btn-secondary btn-icon-text my-2 me-2">
+                                                                                            <i class="fa fa-eye me-2"></i>
+
+                                                                                        </a>
+
+                                                                                    </td>
+                                                                                </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane" id="tab14">
+                                                        <div class="row sidemenu-height">
+                                                            <div class="col-lg-12">
+                                                                <div class="card custom-card overflow-hidden">
+                                                                    <div class="card-body">
+                                                                        <div class="d-flex justify-content-end">
+                                                                            <div class="justify-content-center">
+                                                                                <button type="button"
+                                                                                        class="btn btn-secondary btn-icon-text my-2 me-2"
+                                                                                        data-bs-target="#modaldemo1333"
+                                                                                        data-bs-toggle="modal">
+                                                                                    <i class="fe fe-filter me-2"></i>
+                                                                                    Filter
+                                                                                </button>
+                                                                                <div class="modal fade"
+                                                                                     id="modaldemo1333">
+                                                                                    <div class="modal-dialog"
+                                                                                         role="document">
+                                                                                        <div class="modal-content modal-content-demo">
+                                                                                            <div class="modal-header">
+                                                                                                <button aria-label="Close"
+                                                                                                        class="btn-close"
+                                                                                                        data-bs-dismiss="modal"
+                                                                                                        type="button">
+                                                                                                    <span aria-hidden="true">×</span>
+                                                                                                </button>
+                                                                                            </div>
+                                                                                            <div class="modal-body">
+                                                                                                <form>
+                                                                                                    <div style="margin-bottom: 30px !important;"
+                                                                                                         class="col-sm-12 mg-t-20 mg-sm-t-0">
+                                                                                                        <label class="">Employee</label>
+                                                                                                        <select class="form-control select select2">
+                                                                                                            <option label="Month"></option>
+                                                                                                            <option value="January">
+                                                                                                                January
+                                                                                                            </option>
+                                                                                                            <option value="February">
+                                                                                                                February
+                                                                                                            </option>
+
+                                                                                                        </select>
+                                                                                                        <label class="">Customer</label>
+                                                                                                        <select class="form-control select select2">
+                                                                                                            <option label="Month"></option>
+                                                                                                            <option value="January">
+                                                                                                                January
+                                                                                                            </option>
+                                                                                                            <option value="February">
+                                                                                                                February
+                                                                                                            </option>
+
+                                                                                                        </select>
+                                                                                                        <label class="">Outlet</label>
+                                                                                                        <select class="form-control select select2">
+                                                                                                            <option label="Month"></option>
+                                                                                                            <option value="January">
+                                                                                                                January
+                                                                                                            </option>
+                                                                                                            <option value="February">
+                                                                                                                February
+                                                                                                            </option>
+
+                                                                                                        </select>
+                                                                                                        <div>
+                                                                                                            <label class="">Order Date</label>
+                                                                                                            <div class="input-group">
+                                                                                                                <div class="input-group-text border-end-0">
+                                                                                                                    <i class="fe fe-calendar lh--9 op-6"></i>
+                                                                                                                </div>
+                                                                                                                <input class="form-control" placeholder="Input box" type="date">
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                        <div>
+                                                                                                            <label class="">Desired Delivery Date</label>
+                                                                                                            <div class="input-group">
+                                                                                                                <div class="input-group-text border-end-0">
+                                                                                                                    <i class="fe fe-calendar lh--9 op-6"></i>
+                                                                                                                </div>
+                                                                                                                <input class="form-control" placeholder="Input box" type="date">
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="d-flex justify-content-center">
+                                                                                                        <button style="width: 40%;margin-top: 10px;"
+                                                                                                                class="btn ripple btn-success"
+                                                                                                                type="submit">
+                                                                                                            Dispatch
+                                                                                                        </button>
+                                                                                                    </div>
+                                                                                                </form>
+                                                                                            </div>
+                                                                                            <div class="modal-footer">
+                                                                                                <button class="btn ripple btn-danger"
+                                                                                                        data-bs-dismiss="modal"
+                                                                                                        type="button">
+                                                                                                    Close
+                                                                                                </button>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="table-responsive">
+                                                                            <table class="table table-bordered border-bottom"
+                                                                                   id="example111">
+                                                                                <thead>
+                                                                                <tr>
+                                                                                    <th class="wd-20p">
+                                                                                        <input class="form-check" type="checkbox">
+                                                                                    </th>
+                                                                                    <th class="wd-25p"> ORDER ID</th>
+                                                                                    <th class="wd-20p">CUSTOMER NAME</th>
+                                                                                    <th class="wd-15p">OUTLET NAME</th>
+                                                                                    <th class="wd-20p">EMPLOYEE NAME</th>
+                                                                                    <th class="wd-20p">ORDER DATE</th>
+                                                                                    <th class="wd-15p">DESIRED DELIVERY DATE</th>
+                                                                                    <th class="wd-15p"> SCHEDULE DATE</th>
+                                                                                    <th class="wd-15p">STATUS</th>
+                                                                                    <th class="wd-20p"> DIVISION</th>
+                                                                                    <th class="wd-20p"> Action</th>
+                                                                                </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <input class="form-check" type="checkbox">
+                                                                                    </td>
+                                                                                    <td>OID-UPREP329-000001</td>
+                                                                                    <td>البرنس</td>
+                                                                                    <td>البرنس MOBILES</td>
+                                                                                    <td>UP Ahmed Bayoumi Shishtawi Bayoumi</td>
+                                                                                    <td>03/09/2019 03:12 PM</td>
+                                                                                    <td>03/09/2019 03:12 PM</td>
+                                                                                    <td>06/06/2017 10:29 AM</td>
+                                                                                    <td>Wait For Load</td>
+                                                                                    <td>HUAWEI HHP</td>
+                                                                                    <td>
+
+                                                                                        <button type="button"
+                                                                                                class="btn btn-danger btn-icon-text my-2 me-2">
+                                                                                            <i class="fa fa-close me-2"></i>
+
+                                                                                        </button>
+
+                                                                                        <a href="invoice.html" type="button"
+                                                                                           class="btn btn-secondary btn-icon-text my-2 me-2">
+                                                                                            <i class="fa fa-eye me-2"></i>
+
+                                                                                        </a>
+
+                                                                                    </td>
+                                                                                </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane" id="tab15">
+                                                        <div class="row sidemenu-height">
+                                                            <div class="col-lg-12">
+                                                                <div class="card custom-card overflow-hidden">
+                                                                    <div class="card-body">
+                                                                        <div class="d-flex justify-content-end">
+                                                                            <div class="justify-content-center">
+                                                                                <button type="button"
+                                                                                        class="btn btn-secondary btn-icon-text my-2 me-2"
+                                                                                        data-bs-target="#modaldemo13333"
+                                                                                        data-bs-toggle="modal">
+                                                                                    <i class="fe fe-filter me-2"></i>
+                                                                                    Filter
+                                                                                </button>
+                                                                                <div class="modal fade"
+                                                                                     id="modaldemo13333">
+                                                                                    <div class="modal-dialog"
+                                                                                         role="document">
+                                                                                        <div class="modal-content modal-content-demo">
+                                                                                            <div class="modal-header">
+                                                                                                <button aria-label="Close"
+                                                                                                        class="btn-close"
+                                                                                                        data-bs-dismiss="modal"
+                                                                                                        type="button">
+                                                                                                    <span aria-hidden="true">×</span>
+                                                                                                </button>
+                                                                                            </div>
+                                                                                            <div class="modal-body">
+                                                                                                <form>
+                                                                                                    <div style="margin-bottom: 30px !important;"
+                                                                                                         class="col-sm-12 mg-t-20 mg-sm-t-0">
+                                                                                                        <label class="">Employee</label>
+                                                                                                        <select class="form-control select select2">
+                                                                                                            <option label="Month"></option>
+                                                                                                            <option value="January">
+                                                                                                                January
+                                                                                                            </option>
+                                                                                                            <option value="February">
+                                                                                                                February
+                                                                                                            </option>
+
+                                                                                                        </select>
+                                                                                                        <label class="">Customer</label>
+                                                                                                        <select class="form-control select select2">
+                                                                                                            <option label="Month"></option>
+                                                                                                            <option value="January">
+                                                                                                                January
+                                                                                                            </option>
+                                                                                                            <option value="February">
+                                                                                                                February
+                                                                                                            </option>
+
+                                                                                                        </select>
+                                                                                                        <label class="">Outlet</label>
+                                                                                                        <select class="form-control select select2">
+                                                                                                            <option label="Month"></option>
+                                                                                                            <option value="January">
+                                                                                                                January
+                                                                                                            </option>
+                                                                                                            <option value="February">
+                                                                                                                February
+                                                                                                            </option>
+
+                                                                                                        </select>
+                                                                                                        <div>
+                                                                                                            <label class="">Order Date</label>
+                                                                                                            <div class="input-group">
+                                                                                                                <div class="input-group-text border-end-0">
+                                                                                                                    <i class="fe fe-calendar lh--9 op-6"></i>
+                                                                                                                </div>
+                                                                                                                <input class="form-control" placeholder="Input box" type="date">
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                        <div>
+                                                                                                            <label class="">Desired Delivery Date</label>
+                                                                                                            <div class="input-group">
+                                                                                                                <div class="input-group-text border-end-0">
+                                                                                                                    <i class="fe fe-calendar lh--9 op-6"></i>
+                                                                                                                </div>
+                                                                                                                <input class="form-control" placeholder="Input box" type="date">
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="d-flex justify-content-center">
+                                                                                                        <button style="width: 40%;margin-top: 10px;"
+                                                                                                                class="btn ripple btn-success"
+                                                                                                                type="submit">
+                                                                                                            Dispatch
+                                                                                                        </button>
+                                                                                                    </div>
+                                                                                                </form>
+                                                                                            </div>
+                                                                                            <div class="modal-footer">
+                                                                                                <button class="btn ripple btn-danger"
+                                                                                                        data-bs-dismiss="modal"
+                                                                                                        type="button">
+                                                                                                    Close
+                                                                                                </button>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="table-responsive">
+                                                                            <table class="table table-bordered border-bottom"
+                                                                                   id="example1111">
+                                                                                <thead>
+                                                                                <tr>
+                                                                                    <th class="wd-20p">
+                                                                                        <input class="form-check" type="checkbox">
+                                                                                    </th>
+                                                                                    <th class="wd-25p"> ORDER ID</th>
+                                                                                    <th class="wd-20p">CUSTOMER NAME</th>
+                                                                                    <th class="wd-15p">OUTLET NAME</th>
+                                                                                    <th class="wd-20p">EMPLOYEE NAME</th>
+                                                                                    <th class="wd-20p">ASSIGN TO</th>
+                                                                                    <th class="wd-20p">ORDER DATE</th>
+                                                                                    <th class="wd-15p"> SCHEDULE DATE</th>
+                                                                                    <th class="wd-15p">STATUS</th>
+                                                                                    <th class="wd-20p"> Action</th>
+                                                                                </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <input class="form-check" type="checkbox">
+                                                                                    </td>
+                                                                                    <td>OID-UPREP329-000001</td>
+                                                                                    <td>البرنس</td>
+                                                                                    <td>البرنس MOBILES</td>
+                                                                                    <td>UP Ahmed Bayoumi Shishtawi Bayoumi</td>
+                                                                                    <td>UP Ahmed Bayoumi Shishtawi Bayoumi</td>
+                                                                                    <td>03/09/2019 03:12 PM</td>
+                                                                                    <td>06/06/2017 10:29 AM</td>
+                                                                                    <td>Wait For Load</td>
+                                                                                    <td>
+
+                                                                                        <button type="button"
+                                                                                                class="btn btn-danger btn-icon-text my-2 me-2">
+                                                                                            <i class="fa fa-close me-2"></i>
+
+                                                                                        </button>
+
+                                                                                        <a href="invoice.html" type="button"
+                                                                                           class="btn btn-secondary btn-icon-text my-2 me-2">
+                                                                                            <i class="fa fa-eye me-2"></i>
+
+                                                                                        </a>
+
+                                                                                    </td>
+                                                                                </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane" id="tab16">
+                                                        <div class="row sidemenu-height">
+                                                            <div class="col-lg-12">
+                                                                <div class="card custom-card overflow-hidden">
+                                                                    <div class="card-body">
+                                                                        <div class="table-responsive">
+                                                                            <table class="table table-bordered border-bottom"
+                                                                                   id="example11111">
+                                                                                <thead>
+                                                                                <tr>
+                                                                                    <th class="wd-20p">
+                                                                                        <input class="form-check" type="checkbox">
+                                                                                    </th>
+                                                                                    <th class="wd-25p"> RECURRING ID</th>
+                                                                                    <th class="wd-20p">CUSTOMER NAME</th>
+                                                                                    <th class="wd-15p">OUTLET NAME</th>
+                                                                                    <th class="wd-20p">RECURRING PERIOD</th>
+                                                                                    <th class="wd-20p">RECURRING DAYS</th>
+                                                                                    <th class="wd-15p">STATUS</th>
+                                                                                    <th class="wd-20p"> Action</th>
+                                                                                </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <input class="form-check" type="checkbox">
+                                                                                    </td>
+                                                                                    <td>OID-UPREP329-000001</td>
+                                                                                    <td>البرنس</td>
+                                                                                    <td>البرنس MOBILES</td>
+                                                                                    <td>UP Ahmed Bayoumi Shishtawi Bayoumi</td>
+                                                                                    <td>UP Ahmed Bayoumi Shishtawi Bayoumi</td>
+                                                                                    <td>Wait For Load</td>
+                                                                                    <td>
+
+                                                                                        <button type="button"
+                                                                                                class="btn btn-primary btn-icon-text my-2 me-2">
+                                                                                            <i class="fa fa-edit me-2"></i>
+
+                                                                                        </button>
+
+                                                                                        <a href="invoice.html" type="button"
+                                                                                           class="btn btn-secondary btn-icon-text my-2 me-2">
+                                                                                            <i class="fa fa-eye me-2"></i>
+
+                                                                                        </a>
+
+                                                                                    </td>
+                                                                                </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Row -->
+
+
+            </div>
+        </div>
+    </div>
+    <!-- END MAIN-CONTENT -->
+
+    <!-- RIGHT-SIDEBAR -->
+
+    <div class="sidebar sidebar-right sidebar-animate">
+        <div class="sidebar-icon">
+            <a href="#" class="text-end float-end text-dark fs-20" data-bs-toggle="sidebar-right"
+               data-bs-target=".sidebar-right"><i class="fe fe-x"></i></a>
+        </div>
+        <div class="sidebar-body">
+            <h5>Todo</h5>
+            <div class="d-flex p-3">
+                <label class="ckbox"><input checked type="checkbox"><span>Hangout With friends</span></label>
+                <span class="ms-auto">
+							<i class="fe fe-edit-2 text-primary me-2" data-bs-toggle="tooltip" title=""
+                               data-bs-placement="top" data-bs-original-title="Edit"></i>
+							<i class="fe fe-trash-2 text-danger me-2" data-bs-toggle="tooltip" title=""
+                               data-bs-placement="top" data-bs-original-title="Delete"></i>
+						</span>
+            </div>
+            <div class="d-flex p-3 border-top">
+                <label class="ckbox"><input type="checkbox"><span>Prepare for presentation</span></label>
+                <span class="ms-auto">
+							<i class="fe fe-edit-2 text-primary me-2" data-bs-toggle="tooltip" title=""
+                               data-bs-placement="top" data-bs-original-title="Edit"></i>
+							<i class="fe fe-trash-2 text-danger me-2" data-bs-toggle="tooltip" title=""
+                               data-bs-placement="top" data-bs-original-title="Delete"></i>
+						</span>
+            </div>
+            <div class="d-flex p-3 border-top">
+                <label class="ckbox"><input type="checkbox"><span>Prepare for presentation</span></label>
+                <span class="ms-auto">
+							<i class="fe fe-edit-2 text-primary me-2" data-bs-toggle="tooltip" title=""
+                               data-bs-placement="top" data-bs-original-title="Edit"></i>
+							<i class="fe fe-trash-2 text-danger me-2" data-bs-toggle="tooltip" title=""
+                               data-bs-placement="top" data-bs-original-title="Delete"></i>
+						</span>
+            </div>
+            <div class="d-flex p-3 border-top">
+                <label class="ckbox"><input checked type="checkbox"><span>System Updated</span></label>
+                <span class="ms-auto">
+							<i class="fe fe-edit-2 text-primary me-2" data-bs-toggle="tooltip" title=""
+                               data-bs-placement="top" data-bs-original-title="Edit"></i>
+							<i class="fe fe-trash-2 text-danger me-2" data-bs-toggle="tooltip" title=""
+                               data-bs-placement="top" data-bs-original-title="Delete"></i>
+						</span>
+            </div>
+            <div class="d-flex p-3 border-top">
+                <label class="ckbox"><input type="checkbox"><span>Do something more</span></label>
+                <span class="ms-auto">
+							<i class="fe fe-edit-2 text-primary me-2" data-bs-toggle="tooltip" title=""
+                               data-bs-placement="top" data-bs-original-title="Edit"></i>
+							<i class="fe fe-trash-2 text-danger me-2" data-bs-toggle="tooltip" title=""
+                               data-bs-placement="top" data-bs-original-title="Delete"></i>
+						</span>
+            </div>
+            <div class="d-flex p-3 border-top">
+                <label class="ckbox"><input type="checkbox"><span>System Updated</span></label>
+                <span class="ms-auto">
+							<i class="fe fe-edit-2 text-primary me-2" data-bs-toggle="tooltip" title=""
+                               data-bs-placement="top" data-bs-original-title="Edit"></i>
+							<i class="fe fe-trash-2 text-danger me-2" data-bs-toggle="tooltip" title=""
+                               data-bs-placement="top" data-bs-original-title="Delete"></i>
+						</span>
+            </div>
+            <div class="d-flex p-3 border-top">
+                <label class="ckbox"><input type="checkbox"><span>Find an Idea</span></label>
+                <span class="ms-auto">
+							<i class="fe fe-edit-2 text-primary me-2" data-bs-toggle="tooltip" title=""
+                               data-bs-placement="top" data-bs-original-title="Edit"></i>
+							<i class="fe fe-trash-2 text-danger me-2" data-bs-toggle="tooltip" title=""
+                               data-bs-placement="top" data-bs-original-title="Delete"></i>
+						</span>
+            </div>
+            <div class="d-flex p-3 border-top mb-0">
+                <label class="ckbox"><input type="checkbox"><span>Project review</span></label>
+                <span class="ms-auto">
+							<i class="fe fe-edit-2 text-primary me-2" data-bs-toggle="tooltip" title=""
+                               data-bs-placement="top" data-bs-original-title="Edit"></i>
+							<i class="fe fe-trash-2 text-danger me-2" data-bs-toggle="tooltip" title=""
+                               data-bs-placement="top" data-bs-original-title="Delete"></i>
+						</span>
+            </div>
+            <h5>Overview</h5>
+            <div class="p-4">
+                <div class="main-traffic-detail-item">
+                    <div>
+                        <span>Founder &amp; CEO</span> <span>24</span>
+                    </div>
+                    <div class="progress">
+                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="20"
+                             class="progress-bar progress-bar-xs wd-20p" role="progressbar"></div>
+                    </div><!-- progress -->
+                </div>
+                <div class="main-traffic-detail-item">
+                    <div>
+                        <span>UX Designer</span> <span>1</span>
+                    </div>
+                    <div class="progress">
+                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="15"
+                             class="progress-bar progress-bar-xs bg-secondary wd-15p" role="progressbar"></div>
+                    </div><!-- progress -->
+                </div>
+                <div class="main-traffic-detail-item">
+                    <div>
+                        <span>Recruitment</span> <span>87</span>
+                    </div>
+                    <div class="progress">
+                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="45"
+                             class="progress-bar progress-bar-xs bg-success wd-45p" role="progressbar"></div>
+                    </div><!-- progress -->
+                </div>
+                <div class="main-traffic-detail-item">
+                    <div>
+                        <span>Software Engineer</span> <span>32</span>
+                    </div>
+                    <div class="progress">
+                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="25"
+                             class="progress-bar progress-bar-xs bg-info wd-25p" role="progressbar"></div>
+                    </div><!-- progress -->
+                </div>
+                <div class="main-traffic-detail-item">
+                    <div>
+                        <span>Project Manager</span> <span>32</span>
+                    </div>
+                    <div class="progress">
+                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="25"
+                             class="progress-bar progress-bar-xs bg-danger wd-25p" role="progressbar"></div>
+                    </div><!-- progress -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END RIGHT-SIDEBAR -->
+
+    <!-- FOOTER -->
+
+    <div class="main-footer text-center">
+        <div class="container">
+            <div class="row row-sm">
+                <div class="col-md-12">
+                    <span>Copyright © 2023 <a href="#">Spruha</a>. Designed by <a
+                            href="https://www.spruko.com/">Spruko</a> All rights reserved.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END FOOTER -->
+
+</div>
+<!-- END PAGE -->
+
+<!-- SCRIPTS -->
+
+<!-- BACK TO TOP -->
+<a href="#top" id="back-to-top"><i class="fe fe-arrow-up"></i></a>
+
+<!-- JQUERY JS -->
+<script src="assets/plugins/jquery/jquery.min.js"></script>
+
+<!-- BOOTSTRAP JS -->
+<script src="assets/plugins/bootstrap/js/popper.min.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- PERFECT SCROLLBAR JS -->
+<script src="assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+
+<!-- SIDEMENU JS -->
+<script src="assets/plugins/sidemenu/sidemenu.js" id="leftmenu"></script>
+
+<!-- SIDEBAR JS -->
+<script src="assets/plugins/sidebar/sidebar.js"></script>
+
+<!-- SELECT2 JS -->
+<script src="assets/plugins/select2/js/select2.min.js"></script>
+<script src="assets/js/select2.js"></script>
+
+<script src="assets/plugins/datatable/js/jquery.dataTables.min.js"></script>
+<script src="assets/plugins/datatable/js/dataTables.bootstrap5.js"></script>
+<script src="assets/plugins/datatable/js/dataTables.buttons.min.js"></script>
+<script src="assets/plugins/datatable/js/buttons.bootstrap5.min.js"></script>
+<script src="assets/plugins/datatable/js/jszip.min.js"></script>
+<script src="assets/plugins/datatable/pdfmake/pdfmake.min.js"></script>
+<script src="assets/plugins/datatable/pdfmake/vfs_fonts.js"></script>
+<script src="assets/plugins/datatable/js/buttons.html5.min.js"></script>
+<script src="assets/plugins/datatable/js/buttons.print.min.js"></script>
+<script src="assets/plugins/datatable/js/buttons.colVis.min.js"></script>
+<script src="assets/plugins/datatable/dataTables.responsive.min.js"></script>
+<script src="assets/plugins/datatable/responsive.bootstrap5.min.js"></script>
+<script src="assets/js/table-data.js"></script>
+<!-- INTERNAL JQUERY-STEPS JS -->
+<script src="assets/plugins/jquery-steps/jquery.steps.min.js"></script>
+
+<!-- INTERNAL ACCORDION-WIZARD-FORM JS -->
+<script src="assets/plugins/accordion-Wizard-Form/jquery.accordion-wizard.min.js"></script>
+
+<!-- INTERNAL FORM-WIZAR JS -->
+<script src="assets/js/form-wizard.js"></script>
+
+
+<!-- STICKY JS -->
+<script src="assets/js/sticky.js"></script>
+
+<!-- COLOR THEME JS -->
+<script src="assets/js/themeColors.js"></script>
+
+<!-- CUSTOM JS -->
+<script src="assets/js/custom.js"></script>
+
+<!-- SWITCHER JS -->
+<script src="assets/switcher/js/switcher.js"></script>
+
+<script src="assets/js/advanced-form-elements.js"></script>
+
+</body>
+</html>
